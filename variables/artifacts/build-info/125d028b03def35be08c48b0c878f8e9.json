@@ -1,0 +1,509 @@
+{
+	"id": "125d028b03def35be08c48b0c878f8e9",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.25",
+	"solcLongVersion": "0.8.25+commit.b61c2a91",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"variables/state.sol": {
+				"content": "// 상태 변수\n\n// SPDX-License-Identifier: MIT\npragma solidity >= 0.7.0 < 0.9.0;\n\ncontract SolidityTest {\n    uint storedData;          // 상태변수\n    constructor() {           // 생성자는 하나만 저장해준다.\n    storedData = 10;          // 상태 변수 사용하기\n    }\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"variables/state.sol": {
+				"SolidityTest": {
+					"abi": [
+						{
+							"inputs": [],
+							"stateMutability": "nonpayable",
+							"type": "constructor"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"variables/state.sol\":85:295  contract SolidityTest {... */\n  mstore(0x40, 0x80)\n    /* \"variables/state.sol\":159:293  constructor() {           // 생성자는 하나만 저장해준다.... */\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n    /* \"variables/state.sol\":245:247  10 */\n  0x0a\n    /* \"variables/state.sol\":232:242  storedData */\n  0x00\n    /* \"variables/state.sol\":232:247  storedData = 10 */\n  dup2\n  swap1\n  sstore\n  pop\n    /* \"variables/state.sol\":85:295  contract SolidityTest {... */\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"variables/state.sol\":85:295  contract SolidityTest {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220a5c4aa76caa923c5cb6f5e8ccc257b0162ec013c41cfcf70115e12c250b4a23b64736f6c63430008190033\n}\n",
+						"bytecode": {
+							"functionDebugData": {
+								"@_11": {
+									"entryPoint": null,
+									"id": 11,
+									"parameterSlots": 0,
+									"returnSlots": 0
+								}
+							},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600e575f80fd5b50600a5f81905550603e8060215f395ff3fe60806040525f80fdfea2646970667358221220a5c4aa76caa923c5cb6f5e8ccc257b0162ec013c41cfcf70115e12c250b4a23b64736f6c63430008190033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0xA PUSH0 DUP2 SWAP1 SSTORE POP PUSH1 0x3E DUP1 PUSH1 0x21 PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA5 0xC4 0xAA PUSH23 0xCAA923C5CB6F5E8CCC257B0162EC013C41CFCF70115E12 0xC2 POP 0xB4 LOG2 EXTCODESIZE PUSH5 0x736F6C6343 STOP ADDMOD NOT STOP CALLER ",
+							"sourceMap": "85:210:0:-:0;;;159:134;;;;;;;;;;245:2;232:10;:15;;;;85:210;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "60806040525f80fdfea2646970667358221220a5c4aa76caa923c5cb6f5e8ccc257b0162ec013c41cfcf70115e12c250b4a23b64736f6c63430008190033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xA5 0xC4 0xAA PUSH23 0xCAA923C5CB6F5E8CCC257B0162EC013C41CFCF70115E12 0xC2 POP 0xB4 LOG2 EXTCODESIZE PUSH5 0x736F6C6343 STOP ADDMOD NOT STOP CALLER ",
+							"sourceMap": "85:210:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "22177",
+								"totalCost": "34577"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 159,
+									"end": 293,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 245,
+									"end": 247,
+									"name": "PUSH",
+									"source": 0,
+									"value": "A"
+								},
+								{
+									"begin": 232,
+									"end": 242,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 232,
+									"end": 247,
+									"name": "DUP2",
+									"source": 0
+								},
+								{
+									"begin": 232,
+									"end": 247,
+									"name": "SWAP1",
+									"source": 0
+								},
+								{
+									"begin": 232,
+									"end": 247,
+									"name": "SSTORE",
+									"source": 0
+								},
+								{
+									"begin": 232,
+									"end": 247,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 85,
+									"end": 295,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220a5c4aa76caa923c5cb6f5e8ccc257b0162ec013c41cfcf70115e12c250b4a23b64736f6c63430008190033",
+									".code": [
+										{
+											"begin": 85,
+											"end": 295,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 85,
+											"end": 295,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 85,
+											"end": 295,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 85,
+											"end": 295,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 85,
+											"end": 295,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 85,
+											"end": 295,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"variables/state.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.25+commit.b61c2a91\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"variables/state.sol\":\"SolidityTest\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"variables/state.sol\":{\"keccak256\":\"0x04e3eed11e4f55efe2bada0d6bb54eaf42036f4ed20273f79baa9ab7f5f0a1cd\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a7b7591d39e0ffffcca8513be6b36c9d95941518ce18899ef725023fab55a6fb\",\"dweb:/ipfs/Qmd8vgtMeL8sZuVUjNVTywnVbjkSVjYkd8tbjoy9Kythr8\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [
+							{
+								"astId": 3,
+								"contract": "variables/state.sol:SolidityTest",
+								"label": "storedData",
+								"offset": 0,
+								"slot": "0",
+								"type": "t_uint256"
+							}
+						],
+						"types": {
+							"t_uint256": {
+								"encoding": "inplace",
+								"label": "uint256",
+								"numberOfBytes": "32"
+							}
+						}
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"variables/state.sol": {
+				"ast": {
+					"absolutePath": "variables/state.sol",
+					"exportedSymbols": {
+						"SolidityTest": [
+							12
+						]
+					},
+					"id": 13,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "50:33:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "SolidityTest",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 12,
+							"linearizedBaseContracts": [
+								12
+							],
+							"name": "SolidityTest",
+							"nameLocation": "94:12:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"constant": false,
+									"id": 3,
+									"mutability": "mutable",
+									"name": "storedData",
+									"nameLocation": "118:10:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 12,
+									"src": "113:15:0",
+									"stateVariable": true,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_uint256",
+										"typeString": "uint256"
+									},
+									"typeName": {
+										"id": 2,
+										"name": "uint",
+										"nodeType": "ElementaryTypeName",
+										"src": "113:4:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_uint256",
+											"typeString": "uint256"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"body": {
+										"id": 10,
+										"nodeType": "Block",
+										"src": "173:120:0",
+										"statements": [
+											{
+												"expression": {
+													"id": 8,
+													"isConstant": false,
+													"isLValue": false,
+													"isPure": false,
+													"lValueRequested": false,
+													"leftHandSide": {
+														"id": 6,
+														"name": "storedData",
+														"nodeType": "Identifier",
+														"overloadedDeclarations": [],
+														"referencedDeclaration": 3,
+														"src": "232:10:0",
+														"typeDescriptions": {
+															"typeIdentifier": "t_uint256",
+															"typeString": "uint256"
+														}
+													},
+													"nodeType": "Assignment",
+													"operator": "=",
+													"rightHandSide": {
+														"hexValue": "3130",
+														"id": 7,
+														"isConstant": false,
+														"isLValue": false,
+														"isPure": true,
+														"kind": "number",
+														"lValueRequested": false,
+														"nodeType": "Literal",
+														"src": "245:2:0",
+														"typeDescriptions": {
+															"typeIdentifier": "t_rational_10_by_1",
+															"typeString": "int_const 10"
+														},
+														"value": "10"
+													},
+													"src": "232:15:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_uint256",
+														"typeString": "uint256"
+													}
+												},
+												"id": 9,
+												"nodeType": "ExpressionStatement",
+												"src": "232:15:0"
+											}
+										]
+									},
+									"id": 11,
+									"implemented": true,
+									"kind": "constructor",
+									"modifiers": [],
+									"name": "",
+									"nameLocation": "-1:-1:-1",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 4,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "170:2:0"
+									},
+									"returnParameters": {
+										"id": 5,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "173:0:0"
+									},
+									"scope": 12,
+									"src": "159:134:0",
+									"stateMutability": "nonpayable",
+									"virtual": false,
+									"visibility": "public"
+								}
+							],
+							"scope": 13,
+							"src": "85:210:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "50:245:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
