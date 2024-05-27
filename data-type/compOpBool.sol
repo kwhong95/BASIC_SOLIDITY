@@ -13,4 +13,4 @@ contract CompOpBool {
     function comparison() public view returns (bool, bool, bool, bool, bool, bool) {
         return (a, b, c, d, e, f);
     }
-}
+} 
