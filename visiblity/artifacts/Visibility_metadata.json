@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "c",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"visiblity/visibility.sol": "Visibility"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"visiblity/visibility.sol": {
+			"keccak256": "0x553e8a9d58c89925653b41cf37859c2cf3b2150323da3218c84e11f24b8cf7e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56a115cff74dce2ae67776c60b8fded2147b9b2e3971611e70961bcb5c4eb98c",
+				"dweb:/ipfs/Qmc54dgWkDbC1r6NJkyEoXQBRpe6cpC8fVnH9im74BR1vB"
+			]
+		}
+	},
+	"version": 1
+}

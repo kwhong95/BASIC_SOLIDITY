@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "left",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "right",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"const-operator/shiftOp.sol": "ShiftOp"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"const-operator/shiftOp.sol": {
+			"keccak256": "0x926b81ee576c1472e6ca782f0798eb3f1833fed95cdf492394f942582ddd07ea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc17fc372291c2b19d3fc888f057ee41b3377676e737d13872cf46f364ee8b67",
+				"dweb:/ipfs/QmcK5NMWusGkjnHdw9HAKMQCForGEY7Y3UvPsjvhfBSEH1"
+			]
+		}
+	},
+	"version": 1
+}

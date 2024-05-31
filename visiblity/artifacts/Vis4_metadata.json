@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "funExt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "outPutExt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"visiblity/visibility4.sol": "Vis4"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"visiblity/visibility4.sol": {
+			"keccak256": "0x162bf3f5dcfef8977c69bf8012eb17ceef38464d7ee670e745da531afd1e8741",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb7529bd780bee6e1292d1cb588906ac3b5ae36e76e6ffa8f7aceb3716ecda7b",
+				"dweb:/ipfs/QmRLYvqdbgggdQT3yj7Wmy9GHK5Drn7cLnP6XvNgmfDhYA"
+			]
+		}
+	},
+	"version": 1
+}
