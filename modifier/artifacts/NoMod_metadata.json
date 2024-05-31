@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myBlock",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"modifier/noModi.sol": "NoMod"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"modifier/noModi.sol": {
+			"keccak256": "0x68578b3350b09d3a099419b6b4ce0f47d3343889cf36351799c59d75df40d584",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7fba59d57097b34064a857c6969bdb873bc34b93c660acf068bd2bfcb6f48b0f",
+				"dweb:/ipfs/QmbkiWRJPC5xFF5naXuMaU36Fn9aMU6oGuJZZ3TZ9TmygQ"
+			]
+		}
+	},
+	"version": 1
+}

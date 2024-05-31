@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBlock",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"modifier/error_pure.sol": "ErrPure"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"modifier/error_pure.sol": {
+			"keccak256": "0x9f0a73140d480e15a5c4404abe1cf804382fa301522bd9a8da6da7df32c05f2e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a54112152cba7386a1694fa8a18a3cb120b1950673fa632f37d3e9d0d3544ef9",
+				"dweb:/ipfs/Qmdbcq2ZQmzHtmxBwPA4cTRta7LQKKsC5iJeCCYBSctC1h"
+			]
+		}
+	},
+	"version": 1
+}
