@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "major",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/characteristic/override.sol": "BlockchainStudent"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/characteristic/override.sol": {
+			"keccak256": "0xdec21fd81a7a0b033514830fd6b4d701fb26d7c2316ba281fead11a7792d4219",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f8b6b7fcff5de70a1d8c14019e4548206e4fed95da50f14bf18ffdc456eb4bc",
+				"dweb:/ipfs/QmfCscFfCCkApw3MKNbeNCfWnYSVyAeHafKFLbF9cc9Y74"
+			]
+		}
+	},
+	"version": 1
+}

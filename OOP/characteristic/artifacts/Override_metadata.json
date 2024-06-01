@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/characteristic/override.sol": "Override"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/characteristic/override.sol": {
+			"keccak256": "0xaea629ee7b9a6b98b79d7364a1c7849ee8ad7a6340adf07a7f916f633627f1e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2961d89f8bdbc6b0269726af77221d4395b016c77d37508752d14b7420269d90",
+				"dweb:/ipfs/QmUx9psUNmvQyHh91MVhgMy1RU1ReUEd5sdzW4hPNkvYqp"
+			]
+		}
+	},
+	"version": 1
+}

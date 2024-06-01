@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_exerienceYears",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "_major",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/characteristic/mul.sol": "WebDeveloper"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/characteristic/mul.sol": {
+			"keccak256": "0xe53ddd4f771a9317bcac77ad3cd80329473734d3456b5010cc3565e1067f5cd0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://80c0e64f4f325ab94a823055fe2d220a95f2579c77fb70225d4c58421e710faf",
+				"dweb:/ipfs/QmRoyMh1YApQhLe3M4dDYxt9PtPinULfH4sXry2HTiyxxb"
+			]
+		}
+	},
+	"version": 1
+}

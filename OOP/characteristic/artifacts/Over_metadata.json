@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNumbersDefault",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/characteristic/overloading2.sol": "Over"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/characteristic/overloading2.sol": {
+			"keccak256": "0x5c4179d1bd117ad9f20e927a2db9a3f0f502cdff90301747576c72a1c55954b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fde633ba1033d9b4efa745d468854f0071d39609d6c57ff219d6ba179e8a0601",
+				"dweb:/ipfs/QmcF7SE3eFA9HkNJgDuXbVmeSD6CzZUpTD5CVwRsR21pBB"
+			]
+		}
+	},
+	"version": 1
+}

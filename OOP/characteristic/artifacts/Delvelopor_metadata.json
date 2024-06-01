@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/characteristic/contractPoly.sol": "Delvelopor"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/characteristic/contractPoly.sol": {
+			"keccak256": "0xd7e5e700546b3f60fce588e655ef791a1014eea5abd82cdaaafe0c03ece23623",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6924639c58f01001f41f495fa3d18d19ba6d7f97446546cd806fb5d57772907b",
+				"dweb:/ipfs/QmQbBD8KsRtSxCPwxsYTgfNwkTcJ15cTfvSBz86y42qVmM"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/characteristic/contractPoly.sol": "Event"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/characteristic/contractPoly.sol": {
+			"keccak256": "0x077db3f464a0e6a260ebd392f346a7f649de12a93a2d6ab034f73f35a6ac7f53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://18e791da156ee6e9a0ab9eea830ecda518f2bb705c5b9ce1a15abe9088875d0a",
+				"dweb:/ipfs/QmPknNHjWW9rqm3LFTQ5Ex8Abuhc3o4n6PXZn2APwh9zzM"
+			]
+		}
+	},
+	"version": 1
+}
