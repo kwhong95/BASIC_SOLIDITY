@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"function/pramsReturnVal.sol": "FuncErea"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"function/pramsReturnVal.sol": {
+			"keccak256": "0x33493beec24f05bc1ddafec7796a5c34a4a7ff5054ba1035e076d71191c4c3ea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2315f6a4317c667c3b435d186c392388728d60ac47bdc2afe90d24f50eeca799",
+				"dweb:/ipfs/Qmb2cGeh3kqQ1gjNU7cM3EPL6bmF1qS1ob3ekzzXMi2sja"
+			]
+		}
+	},
+	"version": 1
+}

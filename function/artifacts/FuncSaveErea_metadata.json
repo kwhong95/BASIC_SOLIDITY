@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					}
+				],
+				"name": "getReference",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"function/pramsReturnVal.sol": "FuncSaveErea"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"function/pramsReturnVal.sol": {
+			"keccak256": "0x2e1e5912db6696a735914ef554bf24b6eb8a06c3d272bff39306bd6eacd89242",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7841991e9b72f241e4b5267d42291d1fc4ecd4b3b1942ca4fce92578c03e44fb",
+				"dweb:/ipfs/QmVaJVxZm49VfPAZp96YBWGUVv8bWbJ126DDcAwWqoTDnq"
+			]
+		}
+	},
+	"version": 1
+}
