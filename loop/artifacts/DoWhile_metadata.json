@@ -6,23 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "forever",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "CountryIndexName",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "i",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "doWhileLoopEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"reference/gas.sol": "Gas"
+			"loop/loop2.sol": "DoWhile"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"reference/gas.sol": {
-			"keccak256": "0xff0e090d3fdaaeec20870a8fd5afa0cf4ca8e812732a01ea3e4fe4ee622f6a1b",
+		"loop/loop2.sol": {
+			"keccak256": "0x773fbcce578341ec161ba815c47199a068d13b418582528a0e3ec939c36f3963",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d7e4af828957e69f9dbf3dfaa3280440e9e57190478742bc03e741fd8725e273",
-				"dweb:/ipfs/QmWqqqtUb1Ub8Nz67d28eqFZKPgx4q5S5McJD8KQpX3799"
+				"bzz-raw://6e91283ea0eb94268290e051430cfd58c487ce5816243e745d6575cdb8c976dc",
+				"dweb:/ipfs/Qmb1ojQFXZvXfsQRAvoxs8KVoqJtZnCSVQMRWhrCAT4EJu"
 			]
 		}
 	},
