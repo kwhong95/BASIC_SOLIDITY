@@ -7,22 +7,15 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "changeNumber",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getNumber",
+				"name": "eat",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes32",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes32"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -39,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"OOP/inh-cap/capsul.sol": "Caller"
+			"OOP/characteristic/absint.sol": "Animal"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"OOP/inh-cap/capsul.sol": {
-			"keccak256": "0x0eaa192e071e0e12a1502af079fb66b9c7eeb5515cc72507b0709360158bc2b5",
+		"OOP/characteristic/absint.sol": {
+			"keccak256": "0xed42a6b5599be74ba41e6faa6bd8b032e923033ceffc1f5393faf884ad3d0963",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a57b461445c0384bff934d5605744fac776d552f813f3d41b99a22cd95061bea",
-				"dweb:/ipfs/QmSifGVQoNEXVg6vCijMTa8T6MoP8QadRqj8qhZW3czqk1"
+				"bzz-raw://94ef0d1b8ec6988e65fdf994a7ea0bb5220c5589739649215e68b459ab663ded",
+				"dweb:/ipfs/QmfFeEPvkPtKh2Qjo6VBiobYymbymLzPZGACyDssX5HgND"
 			]
 		}
 	},

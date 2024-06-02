@@ -1,0 +1,213 @@
+{
+	"id": "3f4475f7e2a89c158affeb13dc11ceef",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"OOP/characteristic/absint.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity >= 0.7.0 < 0.9.0;\n\n// 1) 추상 컨트랙트(Abstract contract) : 내부에 추상함수가 존재할 경우, 추상 컨트랙트라 함\n// 추상기능 제공 = 하나 기능 이상 무조건 존재하는 함수\n// 추상 함수 : 함수의 이름과 입력 매개 변수 및 출력 매개 변수만 선언에 두고 내용은 없는 함수(;)\n\nabstract contract Animal {\n    function eat() public virtual returns (bytes32);\n}\n\n\n// 2) 인터페이스(Interface)"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"OOP/characteristic/absint.sol": {
+				"Animal": {
+					"abi": [
+						{
+							"inputs": [],
+							"name": "eat",
+							"outputs": [
+								{
+									"internalType": "bytes32",
+									"name": "",
+									"type": "bytes32"
+								}
+							],
+							"stateMutability": "nonpayable",
+							"type": "function"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "",
+							"opcodes": "",
+							"sourceMap": ""
+						},
+						"gasEstimates": null,
+						"legacyAssembly": null,
+						"methodIdentifiers": {
+							"eat()": "340a2a4e"
+						}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"eat\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"OOP/characteristic/absint.sol\":\"Animal\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"OOP/characteristic/absint.sol\":{\"keccak256\":\"0xed42a6b5599be74ba41e6faa6bd8b032e923033ceffc1f5393faf884ad3d0963\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://94ef0d1b8ec6988e65fdf994a7ea0bb5220c5589739649215e68b459ab663ded\",\"dweb:/ipfs/QmfFeEPvkPtKh2Qjo6VBiobYymbymLzPZGACyDssX5HgND\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"OOP/characteristic/absint.sol": {
+				"ast": {
+					"absolutePath": "OOP/characteristic/absint.sol",
+					"exportedSymbols": {
+						"Animal": [
+							7
+						]
+					},
+					"id": 8,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.7",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:33:0"
+						},
+						{
+							"abstract": true,
+							"baseContracts": [],
+							"canonicalName": "Animal",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": false,
+							"id": 7,
+							"linearizedBaseContracts": [
+								7
+							],
+							"name": "Animal",
+							"nameLocation": "412:6:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"functionSelector": "340a2a4e",
+									"id": 6,
+									"implemented": false,
+									"kind": "function",
+									"modifiers": [],
+									"name": "eat",
+									"nameLocation": "434:3:0",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "437:2:0"
+									},
+									"returnParameters": {
+										"id": 5,
+										"nodeType": "ParameterList",
+										"parameters": [
+											{
+												"constant": false,
+												"id": 4,
+												"mutability": "mutable",
+												"name": "",
+												"nameLocation": "-1:-1:-1",
+												"nodeType": "VariableDeclaration",
+												"scope": 6,
+												"src": "464:7:0",
+												"stateVariable": false,
+												"storageLocation": "default",
+												"typeDescriptions": {
+													"typeIdentifier": "t_bytes32",
+													"typeString": "bytes32"
+												},
+												"typeName": {
+													"id": 3,
+													"name": "bytes32",
+													"nodeType": "ElementaryTypeName",
+													"src": "464:7:0",
+													"typeDescriptions": {
+														"typeIdentifier": "t_bytes32",
+														"typeString": "bytes32"
+													}
+												},
+												"visibility": "internal"
+											}
+										],
+										"src": "463:9:0"
+									},
+									"scope": 7,
+									"src": "425:48:0",
+									"stateMutability": "nonpayable",
+									"virtual": true,
+									"visibility": "public"
+								}
+							],
+							"scope": 8,
+							"src": "394:81:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "32:478:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

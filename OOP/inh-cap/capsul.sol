@@ -20,4 +20,4 @@ contract Caller {
     function getNumber() public view returns(uint) {
         return instance.getNum();
     }
-}
+} 
