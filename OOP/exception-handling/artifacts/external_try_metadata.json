@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "_error",
+						"type": "string"
+					}
+				],
+				"name": "Information",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num2",
+						"type": "uint256"
+					}
+				],
+				"name": "divisionWithTryCatch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/exception-handling/externaltrycatch.sol": "external_try"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/exception-handling/externaltrycatch.sol": {
+			"keccak256": "0x8ec53a303c994c31a89e3e756c349aab5b28a66e082216a541a96e90b4fabca8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75710c26ebe662a38e7901188febd2614839a7bac6e66bbe3bdc910e652017a1",
+				"dweb:/ipfs/Qmc4BZWSPuvyE5ZjdYJ7cMnFA8FqqBjrEoqJRqSpymH23r"
+			]
+		}
+	},
+	"version": 1
+}

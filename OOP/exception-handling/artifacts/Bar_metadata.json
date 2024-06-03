@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "LogBytes",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "contract Foo",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_i",
+						"type": "uint256"
+					}
+				],
+				"name": "tryCatchExternalCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "tryCatchNewContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/exception-handling/trycatch2.sol": "Bar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/exception-handling/trycatch2.sol": {
+			"keccak256": "0x404d11d96b7a4dea73218b9ba7021934de0b581accf44e2f40cf909ba94f0052",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://29f3d2c5ca537b8f5aa4ffeab3115a5980135936da1c5d971d5ef1ec5a1cf031",
+				"dweb:/ipfs/QmQ791TFNKjXhVZ87P7nSRuX5SGsHAGuEzVTkPK6iRb5gW"
+			]
+		}
+	},
+	"version": 1
+}

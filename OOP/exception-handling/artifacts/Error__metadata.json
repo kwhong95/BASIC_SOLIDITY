@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "ErrorReason1",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "errorCode",
+						"type": "uint256"
+					}
+				],
+				"name": "ErrorReason2",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bytes",
+						"name": "lowLevelData",
+						"type": "bytes"
+					}
+				],
+				"name": "ErrorReason3",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "output5",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "output5WithTryCatch",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"OOP/exception-handling/trycatch.sol": "Error_"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OOP/exception-handling/trycatch.sol": {
+			"keccak256": "0x6d834a7d596c5a137a18748464b03c2d8f5ec1441da9ad7a7bc283e9cf378b50",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://036968bf01698b6e7a1d9dede2f43175cb3bfdef40ce0f90766393940b9b433d",
+				"dweb:/ipfs/QmYBnHtJwpyy1M7AEYq3yuTGnyWkzRCJiHcF7XCyVSPdkU"
+			]
+		}
+	},
+	"version": 1
+}
