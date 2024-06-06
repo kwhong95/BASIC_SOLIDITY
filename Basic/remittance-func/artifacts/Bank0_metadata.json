@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Basic/remittance-func/_send.sol": "Bank0"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Basic/remittance-func/_send.sol": {
+			"keccak256": "0xfa77102264387656ea156f959b642d9fccf2bb693feb4c374ad357921f97565f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://117a5d06bb32954141da320ccde717fd05b43332e5d35bbf3cc8a18d08e5fa7f",
+				"dweb:/ipfs/QmVsL72f9uscDd6kPArono2q9TNtGGLesVESEHcpTQi25f"
+			]
+		}
+	},
+	"version": 1
+}

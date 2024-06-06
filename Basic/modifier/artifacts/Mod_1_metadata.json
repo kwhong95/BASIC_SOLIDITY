@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "a",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "myblock",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,20 +21,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myBlock",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Basic/modifier/noModi.sol": "NoMod"
+			"Basic/modifier/modifier.sol": "Mod_1"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Basic/modifier/noModi.sol": {
-			"keccak256": "0x68578b3350b09d3a099419b6b4ce0f47d3343889cf36351799c59d75df40d584",
+		"Basic/modifier/modifier.sol": {
+			"keccak256": "0x4fe05f5f40b3544bf0782b8fcc94322553a921872b3bc9f39a3c244cbad26478",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7fba59d57097b34064a857c6969bdb873bc34b93c660acf068bd2bfcb6f48b0f",
-				"dweb:/ipfs/QmbkiWRJPC5xFF5naXuMaU36Fn9aMU6oGuJZZ3TZ9TmygQ"
+				"bzz-raw://5b19d15dd77ffac9dc787dbaf0ba2318d6ad53b923d3f0911dab73b107c354ae",
+				"dweb:/ipfs/QmNWEVBs99jERTZR3sWiTSfKFYsVEihN5vntVsUFm5nr3s"
 			]
 		}
 	},
